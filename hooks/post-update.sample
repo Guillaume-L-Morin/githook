@@ -5,6 +5,4 @@
 #
 # To enable this hook, rename this file to "post-update".
 
-curl --user admin:7b0874e8516e203e736a53dcaa265e2a http://localhost:8080/job/GitHook/build?token=GitHook
-
-exec git update-server-info
+curl --user admin:7b0874e8516e203e736a53dcaa265e2a http://localhost:8080/job/GitHook/build?token=7b0874e8516e203e736a53dcaa265e2a
